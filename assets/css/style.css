@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,700;1,100&family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,400;1,600&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
 body{
-    background-color: #121214;
+    background-color: #efefef;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .container{
-    background-color: #343439;
+    background-color: #cacad0;
     padding: 30px 40px;
     min-width: 470px;
     color: #efefef;
@@ -54,7 +53,7 @@ body{
 .input-field input {
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #7336ff;
+    border-bottom: 2px solid #ff9036;
     font-size: 18px;
     border-radius: 2px;
     padding: 5px;
@@ -63,11 +62,11 @@ body{
 
 .input-field input:focus{
     outline: none;
-    border-bottom: 3px solid #7336ff;
+    border-bottom: 3px solid #ff9036;
 }
 
 #generate{
-    background-color: #7336ff;
+    background-color: #ff9036;
     border: none;
     padding: 12px 20px;
     border-radius: 4px;
